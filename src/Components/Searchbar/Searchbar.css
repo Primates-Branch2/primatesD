@@ -1,0 +1,56 @@
+.header{
+    justify-content: start;
+    display: flex;
+    gap: 25px;
+}
+.search{
+    margin: auto;
+    width: 531px;
+    height: 48px;
+    margin: auto;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: 15px;
+    display: flex;
+}
+
+#search-img{
+    margin: auto;
+    width: 40px;
+    height: 20px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+#noti-icon{
+    width: 35px;
+    height: 35px;
+    margin-top: 35px;
+}
+.scl-logo{
+    display: flex;
+}
+#logo-icon{
+    width: 48px;
+    height: 48px;
+    margin-top: 30px;
+}
+#name{
+    width: 101px;
+    height: 36px;
+    margin-top:40px ;
+    font-size: 22px;
+    font-family: Poppins;
+    margin-right: 10px;
+}
+@media only screen and (max-width: 1000px){
+    .search{
+        width: auto;
+    }
+    #noti-icon{
+        display: none;
+    }
+    .scl-logo{
+        margin-right: 1800px;
+    }
+    
+}

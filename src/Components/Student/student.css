@@ -1,0 +1,107 @@
+.student{
+    display: flex;
+}
+.studentDetails{
+    display: flex;
+}
+
+
+.inputDetails{
+    width: 400px;
+    border: 1px solid red;
+    height: 500px;
+    padding: 10px;
+}
+.form{
+    padding: 10px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.input h4{
+    background-image: linear-gradient(to right, #092867,#1F52B9);
+    color: aliceblue;
+    padding: 10px;
+}
+.form2{
+    padding: 10px;
+    width: 400px;
+    display: grid;
+   grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.form2 input{
+    width: 100px;
+}
+.heading{
+    padding: 10px;
+}
+.detailsOfStudent{
+    display: flex;
+    gap: 20px;
+}
+.form3{
+    padding: 10px;
+    width: 400px;
+    display: grid;
+   grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+.form3 input{
+    width: 80px;
+}
+.button{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 280px;
+}
+#button1{
+    background-image: linear-gradient(to right, #092867,#1F52B9);
+    color: aliceblue;
+    border: none;
+    padding: 5px 10px 5px 10px
+}
+#button2{
+    background-color: red;
+    background-image: linear-gradient(to right, #a82424,red);
+    color: aliceblue;
+    padding: 5px;
+    border: none;
+
+}
+#rank {
+   
+    width: 150px;
+    text-align: center;
+   
+    margin-top: 2px;
+    margin-left: 6px;
+   
+}
+.vaniRank{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, #092867,#1F52B9);
+    width: 120px;
+    margin: auto;
+    height: 28px;
+    margin-top: -20px;
+}
+#rankImg{
+    margin-left: 15px;
+    height: 18px;
+    margin-top: 5px;
+}
+.ind-domain{
+    height: 50px;
+}
+.ind-domain1{
+    margin-top: -16px;
+}
+#photo{
+    border: 2px dotted black;
+    width: 50px;
+    height: 65px;
+}
