@@ -3,6 +3,7 @@
 
 vercel link https://primates-six.vercel.app/
 
+when you open the link click on the Add student logo then you will be redirect on the Add new student page and after that  when you click on the profile(left side ) you will be redirect on the profile section and i make the modals also when you click any obj it will be open a modal 
 
 
 
